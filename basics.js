@@ -24,11 +24,27 @@ var canDrive = true;
  * and it should print "Hello, my name is {name}"
  */
 
+function greet(name){
+    return "Hello, my name is " + name
+}
+console.log(greet("Jace"));
+
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
 
+ var dataTypes = ["string", 45, true, null, undefined, {name: "james", age: 26}]
+console.log(dataTypes);
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+ var dog = {
+     name: 'Spot',
+     bark: function bark(){
+         console.log("bark");
+     }
+ };
+
+ console.log(dog.bark);
