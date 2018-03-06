@@ -25,9 +25,10 @@ var canDrive = true;
  */
 
 function greet(name){
-    return "Hello, my name is " + name
+    console.log("Hello, my name is " + name);
+
 }
-console.log(greet("Jace"));
+greet("Jace");
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
